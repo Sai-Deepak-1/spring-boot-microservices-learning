@@ -4,13 +4,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Student {
-
+public class Laptop {
     @Autowired
-    Laptop lp;
+    CPU c;
 
-    public void codes() {
-        System.out.println("Student does Coding");
-        lp.compile();
+    public void compile() {
+        c.process();
+        System.out.println("Compiling the Code...");
     }
 }

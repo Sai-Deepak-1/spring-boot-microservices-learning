@@ -12,6 +12,8 @@ public class App {
 //        System.out.println("Hello World! \uD83D\uDE0E");
         ApplicationContext actx = new ClassPathXmlApplicationContext("spring-context.xml");
         Student stu = (Student) actx.getBean("student");
+//        stu.setAge(20);
+        System.out.println(stu.getAge());
         stu.code();
     }
 }

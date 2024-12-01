@@ -12,12 +12,12 @@ This project is a simple Spring Framework application configured via XML.
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/Sai-Deepak-1/spring-boot-microservices-learning/tree/main/projects/spring-framework-first-project
+   git clone https://github.com/Sai-Deepak-1/spring-boot-microservices-learning.git
    ```
 
 2. Change the Directory
    ```sh
-   cd Spring1stProj
+   cd projects/spring-framework-first-project/Spring1stProj
    ```
 3. Build the project using Maven:
 

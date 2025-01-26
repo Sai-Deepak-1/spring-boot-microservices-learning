@@ -1,5 +1,7 @@
 package com.saideepak;
 
+import java.beans.ConstructorProperties;
+
 public class Student {
     int age = 0;
     Computer comp;
@@ -8,6 +10,7 @@ public class Student {
         System.out.println("Student object created");
     }
 
+    @ConstructorProperties({"age", "comp"})
     public Student(int age, Computer comp) {
         System.out.println("Student object created with age and "+comp.toString());
         this.age = age;
